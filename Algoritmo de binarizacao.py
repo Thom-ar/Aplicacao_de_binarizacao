@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-img = cv.imread(r'C:\Users\Thomas\Desktop\Bootcamp ML\Projetos\comida.jpg')
+img = cv.imread(r'comida.jpg')
 if img is None:
     print('Erro ao abrir a imagem.')
     exit()
